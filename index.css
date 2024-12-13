@@ -1,0 +1,1062 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 30px;
+    color: #fff;
+   
+  
+}
+
+.logo img {
+    height: 40px;
+   border-radius: 20px;
+   margin-left: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #1e90ff;
+    border-radius: 5px;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.login-btn {
+    text-decoration: none;
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #1e90ff;
+}
+
+#Space-Gap{
+    display: flex;
+    margin-left: 30px;
+}
+
+
+
+/* Hero Section Part 1 In CSS */
+
+
+
+/* Meenu Section Slides */
+
+
+
+.hero-section {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 45vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+
+
+  }
+  
+  .slider {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+  #Button-size {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
+
+
+
+
+  /* Hero Section In CSS */
+
+  /* style.css */
+
+.trends-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    background: conic-gradient(from 90deg, #ffe29f, #ffa99f, #ff719a, #c44dff);
+
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 50px;
+    margin-left: 80px;
+   
+}
+
+.left-content h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+
+}
+
+.left-content p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.get-report-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.right-content {
+    flex: 1;
+    text-align: center;
+    margin-right: 80px;
+}
+
+.right-content img {
+    max-width: 100%;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stats p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* Product Section in CSS */
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background: conic-gradient(from 0deg, #4facfe, #00f2fe, #4facfe);
+    
+}
+
+.feature {
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f1f3f4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-size: cover;
+}
+
+.live-icon {
+    background-image: url("https://cdn-icons-png.freepik.com/256/18429/18429699.png?semt=ais_hybrid");
+}
+
+.tests-icon {
+    background-image: url("https://cdn-icons-png.freepik.com/256/13972/13972644.png?ga=GA1.1.1139119701.1730656879&semt=ais_hybrid");
+}
+
+.doubt-icon {
+    background-image: url("https://cdn-icons-png.freepik.com/256/1283/1283201.png?ga=GA1.1.1139119701.1730656879&semt=ais_hybrid");
+}
+
+.centres-icon {
+    background-image: url("https://img.freepik.com/premium-vector/vector-design-callcentered-icon-style_822882-92128.jpg?ga=GA1.1.1139119701.1730656879&semt=ais_hybrid");
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+
+
+/* Course Section in CSS */
+
+
+/* style.css */
+
+.exam-categories {
+    text-align: center;
+    margin: 10px;
+    /* background: linear-gradient(to right, #a18cd1, #fbc2eb); */
+    background: linear-gradient(135deg, #00ff87, #60efff, #0099f7);
+    
+
+
+
+   
+
+}
+
+.category-card {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: #222222;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    position: relative;
+    /* background: conic-gradient(from 0deg, #ffcc70, #d54062, #ffcc70); */
+    background: conic-gradient(from 45deg, #ff6a00, #ee0979, #ff6a00, #ee0979);
+    
+}
+
+
+
+.category-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-buttons button {
+    background-color: #128e8a;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-image {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #00c6ff, #0072ff); */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), #6a11cb;
+    
+    
+    
+
+}
+
+.card-image img {
+    width: 80px;
+    height: 80px;
+}
+
+.explore-button {
+    background-color: #0dc942;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.view-all-button {
+    background-color: #ab15d8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+button {
+  background-color: transparent;
+  color: #d35400;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+button::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #d35400;
+  transition: width 0.3s ease;
+}
+
+button:hover::after {
+  width: 100%;
+}
+button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  button:hover::before {
+    opacity: 1;
+  }
+  
+  #Head-Topid{
+    font-size: 50px;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    
+  }
+  #Para-Top{
+    font-size: 20px;
+  }
+
+
+
+
+
+  /* Centre Section in CSS */
+/* style.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+ 
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.content h2, .content h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #f82274;
+    text-shadow: 1px 1px 0 #ccc, 2px 2px 0 #aaa, 3px 3px 0 #888;
+    
+   
+      
+    
+      
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.city-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 1000px;
+}
+
+.city-card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    /* background: linear-gradient(to right, #00c6ff, #0072ff, #00c6ff); */
+     background: linear-gradient(135deg, #1e3c72, #2a5298, #537895);
+     
+    
+}
+.city-card:hover {
+    transform: scale(1.1);
+   
+
+  }
+
+.city-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.view-more {
+    background-color: #27c061;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #13547a, #80d0c7);
+    /* background: linear-gradient(45deg, #8e44ad, #3498db); */
+    
+}
+
+.container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #131a18;
+    width: 220px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background: conic-gradient(from 270deg, crimson, darkorange, gold, forestgreen, darkblue, purple, crimson);
+
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-number {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-image {
+    opacity: 1;
+}
+
+.get-started {
+    background-color: #994caf;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* Result Section in CSS */
+
+
+#All-Part {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    background: conic-gradient(
+  lime,
+  cyan,
+  magenta,
+  yellow,
+  lime,
+  cyan
+);
+
+
+}
+
+.hero-section2 {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   
+    background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.hero-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero-images img {
+    width: 100%;
+    /* height: 100%; */
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+
+.controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+#Head-Top{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+/* Youtube Section In Section */
+
+
+
+/* CSS Code (Page 2) */
+#Youtube-Main{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+.youtube-section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(45deg, #ff4500, #ff6347, #ff7f50, #ffd700);
+    background: conic-gradient(from 45deg, #d35400, #e67e22, #f39c12, #f1c40f);
+
+
+}
+
+.youtube-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.youtube-section p {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.container6 {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #007bff;
+   
+}
+
+.box {
+    background: linear-gradient(145deg, #333, #444);
+    border-radius: 10px;
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.box span {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+#Youtube-Button{
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+#Youtube-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Para-You{
+    font-size: 20px;
+    font-weight: bold;
+    color: #201d1d;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer Section in CSS*/
+
+/* Footer Styles */
+#footer-Head {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .footer {
+    background-color: #000;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+  }
+  
+  .footer-section h2, .footer-section h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00bfff;
+  }
+  
+  .app-links img {
+    width: 120px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  
+  .social-icons a:hover img {
+    opacity: 0.7;
+  }
+
+
+  #PW-HEAD{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #PW-PARA{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Images And App Section */
+/* CSS (Page 2) */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #15d762;
+    color: #ffffff;
+} */
+
+/* .promo-section5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 70vh;
+    background-color: #1414dd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+} */
+
+/* .content5 {
+    max-width: 600px;
+} */
+
+/* #PW-HEAD {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#Text-Pw {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#Text-Pw li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+#Text-Pw li span {
+    color: #4caf50;
+    margin-right: 10px;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #de206c;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.button img {
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.image img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(32, 128, 238, 0.3) 0px 0px 0px 3px;
+    
+} */
+
+/* Youtube Section In CSS */
+
+
